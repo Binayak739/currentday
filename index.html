@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions and Answers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        p code {
+            background-color: #f4f4f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 0.2rem 0.4rem;
+            font-size: 0.95rem;
+            color: #d14;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Questions and Answers</h1>
+    </header>
+    <main>
+        <h1>How to create a Gmail account?</h1>
+        <p>
+            To create a Gmail account, go to the Gmail sign-up page, enter your name, choose a username, create a password, and provide your birthdate. Optionally, add a phone number and recovery email. Agree to the terms, complete any verification steps, and you’re done!
+        </p>
+
+        <h1>How to create a GitHub account?</h1>
+        <p>
+            To create a GitHub account, visit GitHub’s sign-up page. Enter your username, email, and password. Verify your email address. Choose your plan (free or paid). Follow the on-screen instructions to complete setup. You’re ready to start hosting and sharing your code on GitHub!
+        </p>
+
+        <h1>How to connect VS Code editor to GitHub account?</h1>
+        <p>
+            To connect VS Code to your GitHub account, follow these steps:
+            <br>Install Git: Download and install Git from <a href="https://git-scm.com" target="_blank">git-scm.com</a>.
+            <br>Install GitHub Extension: Open VS Code, go to the Extensions view (click the square icon or press <code>Ctrl+Shift+X</code>), and search for "GitHub." Install the “GitHub Pull Requests and Issues” extension.
+            <br>Sign In: Click the "Sign in to GitHub" prompt in the bottom-right corner or go to the Source Control view (click the branch icon or press <code>Ctrl+Shift+G</code>) and sign in.
+            <br>Clone or Initialize: Clone a repository or initialize a new one by using the commands in the Source Control view.
+            <br>You’re all set to start coding and syncing with GitHub in VS Code!
+        </p>
+
+        <h1>How to clone/pull repository from GitHub account?</h1>
+        <p>
+            To clone a GitHub repository:
+            <br>Copy the repository's URL from GitHub.
+            <br>Open your terminal or Git Bash.
+            <br>Enter <code>git clone [URL]</code> and press Enter.
+            <br>To pull updates:
+            <br>Navigate to the repository's folder.
+            <br>Enter <code>git pull</code> to fetch and merge updates.
+            <br>That's it!
+        </p>
+
+        <h1>How to push repository folder to GitHub?</h1>
+        <p>
+            To push a folder to GitHub:
+            <br>Navigate to the folder in the terminal.
+            <br>Initialize with <code>git init</code>.
+            <br>Add files with <code>git add .</code>.
+            <br>Commit changes with <code>git commit -m "Initial commit"</code>.
+            <br>Link the remote repo with <code>git remote add origin [URL]</code>.
+            <br>Push with <code>git push -u origin main</code>.
+        </p>
+
+        <h1>How to publish the repository as a live site?</h1>
+        <p>
+            To publish a GitHub repository as a live site using GitHub Pages:
+            <br>Go to Your Repository: Open your repository on GitHub.
+            <br>Navigate to Settings: Click the "Settings" tab.
+            <br>Access Pages Settings: Scroll down to the "Pages" section in the left sidebar.
+            <br>Choose a Source:
+            <br>Select the branch you want to publish (usually <code>main</code> or <code>gh-pages</code>).
+            <br>Optionally, choose the folder (typically <code>/root</code> or <code>/docs</code>).
+            <br>Save and Wait: Click "Save." GitHub will process the site.
+            <br>Access Your Site: After a few minutes, your live site will be available at <code>https://your-username.github.io/repository-name</code>.
+            <br>Your site is now live!
+        </p>
+    </main>
+    <footer>
+        &copy; 2024 Questions and Answers. All rights reserved.
+    </footer>
+</body>
+</html>
